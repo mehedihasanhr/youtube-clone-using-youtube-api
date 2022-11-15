@@ -1,4 +1,4 @@
 export const config = {
-    API_URL: "https://youtube.googleapis.com/youtube/v3",
-    API_KEY: "AIzaSyCyhRjsOnTSnO5X_LWeFrrz5tR5S_kmG9w"
-}
+  API_URL: process.env.REACT_APP_API_URL,
+  API_KEY: process.env.REACT_APP_API_KEY,
+};
